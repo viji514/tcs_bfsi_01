@@ -1,79 +1,80 @@
-🏦 Credit Risk Prediction - German Credit Dataset
+# 🏦 Credit Risk Prediction - German Credit Dataset
 
-📁 crp.py
+### 📁 crp.py
 
-This project is a complete machine learning pipeline for predicting the creditworthiness of loan applicants using the German Credit dataset. It includes data exploration, preprocessing, model training, evaluation, and a Streamlit UI for real-time predictions.
+This project is a complete machine learning pipeline for predicting the **creditworthiness** of loan applicants using the **German Credit dataset**. It includes data exploration, preprocessing, model training, evaluation, and a **Streamlit UI** for real-time predictions.
 
-🔍 Problem Statement
+---
+
+### 🔍 Problem Statement
 
 Financial institutions face challenges in assessing credit risk. This project aims to:
+- Classify applicants as **Good** or **Bad** credit risks
+- Identify key features influencing creditworthiness
+- Suggest improvements for the credit evaluation process
 
-Classify applicants as Good or Bad credit risks
+---
 
-Identify key features influencing creditworthiness
+### 🧠 Features Used
 
-Suggest improvements for the credit evaluation process
+- Age  
+- Sex  
+- Job  
+- Housing  
+- Saving accounts  
+- Checking account  
+- Credit amount  
+- Duration  
+- Purpose  
+- **Engineered Feature:** Debt-to-Income Ratio
 
-🧠 Features Used
+---
 
-Age
+### 📊 Project Highlights
 
-Sex
+✅ Data exploration with stats, correlations, and visualizations  
+✅ Handling missing values & encoding categorical features  
+✅ Feature scaling and new feature engineering  
+✅ Model development using `RandomForestClassifier` + `GridSearchCV`  
+✅ Performance metrics: Accuracy, Precision, Recall, F1-Score  
+✅ Feature importance chart and confusion matrix  
+✅ Streamlit app with custom prediction UI
 
-Job
+---
 
-Housing
+### 🚀 How to Run
 
-Saving accounts
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/credit-risk-prediction.git
+   cd credit-risk-prediction
+   ```
 
-Checking account
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Credit amount
+3. Run the Streamlit app:
+   ```bash
+   streamlit run crp.py
+   ```
 
-Duration
+---
 
-Purpose
+### 🛆 Dependencies
 
-Engineered Feature: Debt-to-Income Ratio
+See `requirements.txt` for full list. Includes:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- streamlit
+- joblib
 
-📊 Project Highlights
+---
 
-✅ Data exploration with stats, correlations, and visualizations✅ Handling missing values & encoding categorical features✅ Feature scaling and new feature engineering✅ Model development using RandomForestClassifier + GridSearchCV✅ Performance metrics: Accuracy, Precision, Recall, F1-Score✅ Feature importance chart and confusion matrix✅ Streamlit app with custom prediction UI
-
-🚀 How to Run
-
-Clone the repository:
-
-git clone https://github.com/your-username/credit-risk-prediction.git
-cd credit-risk-prediction
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the Streamlit app:
-
-streamlit run crp.py
-
-🛆 Dependencies
-
-See requirements.txt for full list. Includes:
-
-pandas
-
-numpy
-
-matplotlib
-
-seaborn
-
-scikit-learn
-
-streamlit
-
-joblib
-
-📌 Author
+### 📌 Author
 
 Made by Vijayalakshmi for the TCS Hackathon 2025 💻
-
