@@ -46,8 +46,9 @@ Financial institutions face challenges in assessing credit risk. This project ai
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/credit-risk-prediction.git
-   cd credit-risk-prediction
+   git clone https://github.com/your-username/tcs_bfsi_01.git
+   cd tcs_bfsi_01
+
    ```
 
 2. Install dependencies:
@@ -77,4 +78,4 @@ See `requirements.txt` for full list. Includes:
 
 ### 📌 Author
 
-Made by Vijayalakshmi for the TCS Hackathon 2025 💻
+Made by Vijayalakshmi S 💻
